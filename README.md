@@ -34,4 +34,4 @@ python3 evaluate.py
 
 ## 3.Best model
 
-our model available: [Model] (https://awi.cuhk.edu.cn/dbAMP/download/software/best_model.zip)
+our model available: [Model](https://awi.cuhk.edu.cn/dbAMP/download/software/best_model.zip)
