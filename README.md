@@ -1,4 +1,4 @@
-ACP-CapsPred
+# ACP-CapsPred
 
 **A model for ACP classification and feature extraction**
 
@@ -29,8 +29,6 @@ python3 train.py
 ```
 python3 evaluate.py
 ```
-
-# ACP-CapsPred
 
 ## 3.Best model
 
