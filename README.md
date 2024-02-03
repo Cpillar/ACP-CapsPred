@@ -2,7 +2,8 @@
 
 **A model for ACP classification and feature extraction**
 
-
+## abstract
+Cancer is a severe illness that significantly threatens human life and health. Anticancer peptides (ACPs) represent a promising therapeutic strategy for combating cancer. In silico methods enable rapid and accurate identification of ACPs without extensive human and material resources. This study proposes a two-stage computational framework called ACP-CapsPred, which can accurately identify ACPs and characterise their functional activities across different cancer types. ACP-CapsPred integrates a protein language model with evolutionary information and physicochemical properties of peptides, constructing a comprehensive profile of peptides. ACP-CapsPred employs a next-generation neural network, specifically capsule networks, to construct predictive models. Experimental results demonstrate that ACP-CapsPred exhibits satisfactory predictive capabilities in both stages, reaching state-of-the-art performance. In the first stage, ACP-CapsPred achieves accuracies of 80.25\% and 95.71\%, as well as F1-scores of 79.86\% and 95.90\%, on benchmark datasets Set 1 and Set 2, respectively. In the second stage, tasked with characterising the functional activities of ACPs across five selected cancer types, ACP-CapsPred attains an average accuracy of 90.75\% and an F1-score of 92.38\%. Furthermore, ACP-CapsPred demonstrates excellent interpretability, revealing regions and residues associated with anticancer activity. Consequently, ACP-CapsPred presents a promising solution to expedite the development of ACPs and offers a novel perspective for other biological sequence analyses.
 
 ## Conclusion
 
@@ -33,3 +34,8 @@ python3 evaluate.py
 ## 3.Best model
 
 our model available: [Model](https://awi.cuhk.edu.cn/dbAMP/download/software/best_model.zip)
+
+## 4.Dataset
+```
+Data\raw_data
+```
